@@ -20,7 +20,7 @@ import { TypechambreModule } from './typechambre/typechambre.module';
     }),
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '172.30.224.1',
       port: 3306,
       username: 'root', 
       password: '',
